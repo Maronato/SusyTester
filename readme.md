@@ -46,6 +46,7 @@ Depois de ter instalado, abra seu terminal dentro
 da pasta onde está o `susy.py` e digite os comandos a seguir:
 
 ```
+pip install virtualenv
 virtualenv -p python3 venv
 source venv/bin/activate
 pip install requests
