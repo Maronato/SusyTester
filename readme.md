@@ -37,9 +37,12 @@ Pasta de MC
 não lê mentes, então escreva do jeito que funciona
 
 # Como eu rodo os testes?
+- Instale [Python versão 3.x](https://www.python.org/)(ou seja, não é a versão 2)
 
-Depois de ter instalado [Python versão 3.x](https://www.python.org/)
-(ou seja, não é a versão 2), abra seu terminal dentro
+**OBS USUÁRIOS DE WINDOWS:** No começo da instalação de Python, não esqueça de marcar a opção que diz:
+`Add Python to environment variables`!
+
+Depois de ter instalado, abra seu terminal dentro
 da pasta onde está o `susy.py` e digite os comandos a seguir:
 
 ```
