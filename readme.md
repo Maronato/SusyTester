@@ -45,6 +45,14 @@ não lê mentes, então escreva do jeito que funciona
 Depois de ter instalado, abra seu terminal dentro
 da pasta onde está o `susy.py` e digite os comandos a seguir:
 
+**Comandos para Windows**
+```
+pip install virtualenv
+virtualenv venv
+venv\Scripts\activate.bat
+pip install requests
+```
+**Comandos para Linux/Mac**
 ```
 pip install virtualenv
 virtualenv venv
@@ -79,6 +87,11 @@ python susy.py 5
 Depois que você fechar esse terminal, é necessário reativar
 o ambiente que você criou ali em cima. Pra fazer isso,
 basta ir até a pasta do `susy.py` e rodar:
+**No Windows**
+```
+venv\Scripts\activate.bat
+```
+**No Linux/Mac**
 ```
 source venv/bin/activate
 ```
