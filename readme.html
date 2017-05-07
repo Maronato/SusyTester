@@ -762,6 +762,13 @@ não lê mentes, então escreva do jeito que funciona</p>
 <code>Add Python to environment variables</code>!</p>
 <p>Depois de ter instalado, abra seu terminal dentro
 da pasta onde está o <code>susy.py</code> e digite os comandos a seguir:</p>
+<p><strong>Comandos para Windows</strong></p>
+<pre><code>pip install virtualenv
+virtualenv venv
+venv\Scripts\activate.bat
+pip install requests
+</code></pre>
+<p><strong>Comandos para Linux/Mac</strong></p>
 <pre><code>pip install virtualenv
 virtualenv venv
 source venv/bin/activate
@@ -785,6 +792,10 @@ mude a sua turma.</p>
 <p>Depois que você fechar esse terminal, é necessário reativar
 o ambiente que você criou ali em cima. Pra fazer isso,
 basta ir até a pasta do <code>susy.py</code> e rodar:</p>
+<p><strong>No Windows</strong></p>
+<pre><code>venv\Scripts\activate.bat
+</code></pre>
+<p><strong>No Linux/Mac</strong></p>
 <pre><code>source venv/bin/activate
 </code></pre>
 <p>e rodar seus testes normalmente.</p>

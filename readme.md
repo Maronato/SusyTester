@@ -87,6 +87,7 @@ python susy.py 5
 Depois que você fechar esse terminal, é necessário reativar
 o ambiente que você criou ali em cima. Pra fazer isso,
 basta ir até a pasta do `susy.py` e rodar:
+
 **No Windows**
 ```
 venv\Scripts\activate.bat
